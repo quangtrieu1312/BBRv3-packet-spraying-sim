@@ -154,12 +154,16 @@ def parseArgs():
     DEBUG = args.debug
     TROUBLESHOOT = args.troubleshoot
     print(
-        f"link count = {LINK_COUNT}, single link bandwidth = {BANDWIDTH} Mbps, loss = {LOSS}%, skewed latency = {LATENCY}ms"
+        f">>>>> ARGS: link count = {LINK_COUNT}, single link bandwidth = {BANDWIDTH} Mbps, loss = {LOSS}%, skewed latency = {LATENCY}ms"
     )
 
 
 if __name__ == "__main__":
-    setLogLevel("warning")
+    if DEBUG:
+        setLogLevel("info")
+    else:
+        setLogLevel("critical")
+
     parseArgs()
     if DEBUG:
         print("##### Phase 1: Loading topology #####")
