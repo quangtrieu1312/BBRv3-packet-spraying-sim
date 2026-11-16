@@ -105,7 +105,7 @@ def measure(node, cc):
     try:
         sent = json.loads(iperf)["end"]["sum_sent"]
     except Exception:
-        return None
+        return measure(node, cc)
     return sent["bits_per_second"] / 1e6, sent["retransmits"]
 
 
@@ -200,10 +200,8 @@ if __name__ == "__main__":
 
     if DEBUG:
         print("##### Phase 4: Base line iperf: CUBIC, BBR #####")
-    else:
-        print("##### Base line iperf: CUBIC, BBR #####")
-    for cc in CC_SWEEP:
-        print(measure(client1, cc))
+        for cc in CC_SWEEP:
+            print(measure(client1, cc))
 
     if DEBUG:
         print("##### Phase 5: Test sanity check (packet spraying) #####")

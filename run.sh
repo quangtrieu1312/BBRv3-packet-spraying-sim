@@ -3,7 +3,7 @@ SCRIPT_DIR=$(realpath $(dirname $0))
 BENCHMARK_SCRIPT=$SCRIPT_DIR/benchmark.py
 LATENCY_SWEEP=(0 1 2 3 4 5 6 7 8 9 10 15 20 25 30)
 LOSS_SWEEP=(0 1 2 3 4 5 6 7 8 9 10 15 20 25 30)
-LINK_SWEEP=(2 3 4 5 6 7 8 9 10 15 20 25 30)
+LINK_SWEEP=(1 2 3 4 5 6 7 8 9 10 15 20 25 30)
 
 output=$SCRIPT_DIR/output.txt
 err=$SCRIPT_DIR/err.txt
