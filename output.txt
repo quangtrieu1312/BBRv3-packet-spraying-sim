@@ -1,176 +1,419 @@
->>>>> ARGS: link count = 1, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+===== Start link sweep =====
+>>>>> ARGS: link count = 1, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(96.7852493242204, 83)
-(96.0524211339978, 15)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(96.87534422852914, 83)
+(95.1088107310638, 174)
+(96.68128566789193, 83)
+(95.09304367632116, 22)
+(96.76679511440668, 82)
+(94.9831287717909, 28)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(192.83519666023625, 87)
-(190.42812042362843, 110)
->>>>> ARGS: link count = 3, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(192.90289496340617, 100)
+(190.74319662246558, 64)
+(192.83546633949848, 95)
+(191.02095805359747, 68)
+(193.43078146877687, 120)
+(190.53202891624807, 55)
+>>>>> ARGS: link count = 3, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(289.82825451338, 537)
-(285.6832515487089, 330)
->>>>> ARGS: link count = 4, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(287.674139420518, 37)
+(285.4324321381518, 218)
+(287.62588882001944, 43)
+(285.53846153846155, 275)
+(290.1688550027677, 305)
+(289.6711460205924, 1024)
+>>>>> ARGS: link count = 4, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(382.63608093834165, 6)
-(379.3822939052776, 561)
->>>>> ARGS: link count = 5, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(381.79453021424115, 16)
+(379.70551477275984, 485)
+(381.803645498738, 4)
+(381.48711730179525, 581)
+(382.6659521200438, 173)
+(378.79001603443925, 1364)
+>>>>> ARGS: link count = 5, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(448.62023205319684, 611)
-(463.8140993419028, 1729)
->>>>> ARGS: link count = 6, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(463.5935398138772, 779)
+(473.55696614245153, 1594)
+(473.131554132024, 839)
+(461.71705645932934, 1016)
+(455.12184031317065, 443)
+(459.968817554408, 1503)
+>>>>> ARGS: link count = 6, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(461.9352286560422, 141)
-(518.3006275954845, 4373)
->>>>> ARGS: link count = 7, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(519.2069052697024, 1301)
+(542.898102842749, 1844)
+(485.487493837945, 2227)
+(536.4708793889133, 1548)
+(500.11812090567713, 400)
+(544.760619405513, 1401)
+>>>>> ARGS: link count = 8, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(472.0951535339077, 246)
-(526.7279543483055, 6070)
->>>>> ARGS: link count = 8, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(537.3997367972713, 38)
+(618.6907933830436, 1677)
+(546.9727030281333, 3)
+(620.4996849033982, 1984)
+(562.4681042691747, 6)
+(628.0898931720475, 3668)
+>>>>> ARGS: link count = 10, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(506.65981045866744, 243)
-(582.0653436615174, 11695)
->>>>> ARGS: link count = 9, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(563.945328940869, 3)
+(639.683780132269, 3846)
+(611.0377060097302, 15)
+(685.7271299723468, 6267)
+(555.3341901177575, 20)
+(661.3458529414203, 2780)
+>>>>> ARGS: link count = 15, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(457.85844346174, 13)
-(592.9356158201435, 5191)
->>>>> ARGS: link count = 10, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(604.4403396386722, 110)
+(717.164229960016, 23301)
+(567.170034769142, 26)
+(782.0334398333755, 15466)
+(698.3900218207042, 181)
+(779.5046961628764, 1799)
+>>>>> ARGS: link count = 20, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(555.7925108411494, 868)
-(611.4815141712068, 6335)
->>>>> ARGS: link count = 15, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(600.9252414692004, 20)
+(908.6588736118233, 1516)
+(623.8617756667564, 85)
+(824.3169669445949, 3890)
+(581.9605994369406, 6)
+(768.9857023393665, 420)
+===== Start loss sweep =====
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0.0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(576.0086309599326, 316)
-(646.2708677548445, 3789)
->>>>> ARGS: link count = 20, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(192.83315482744064, 78)
+(190.3215303298242, 98)
+(193.35930701681835, 159)
+(189.86645016829783, 106)
+(192.697148210564, 108)
+(190.8069637639319, 60)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0.25 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(592.9572938080996, 2953)
-(614.077761182925, 607)
->>>>> ARGS: link count = 25, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(30.795401967249013, 203)
+(178.80037435894926, 633)
+(29.956947058429254, 55)
+(175.76123067087545, 671)
+(31.632863340455646, 57)
+(177.2843291905314, 527)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0.5 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(588.771287203484, 734)
-(573.7934491182673, 243)
->>>>> ARGS: link count = 30, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(21.263483338166527, 72)
+(173.4586542234426, 1031)
+(16.86386063051904, 91)
+(174.76645834047793, 1015)
+(21.49196308780359, 150)
+(177.2838683301287, 1260)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0.75 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(542.473537636734, 9)
-(667.2994610559628, 539)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(16.97141423596406, 86)
+(168.713653444159, 1339)
+(14.140699186527325, 83)
+(170.10543678132444, 1250)
+(13.83870116282976, 89)
+(169.1099423086537, 1348)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 1.0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(192.94152188970867, 90)
-(190.32095998046904, 414)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 1%, skewed latency = 0ms
+(14.873809191071546, 120)
+(146.16525179211283, 1315)
+(14.559518518795997, 110)
+(140.06525618669295, 1297)
+(11.417318955312593, 103)
+(163.23581061307382, 1547)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 1.5 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(10.902942213315614, 98)
-(158.47937364857617, 1564)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 2%, skewed latency = 0ms
+(9.00817880674631, 119)
+(100.71030560046309, 1237)
+(9.009453190775341, 114)
+(76.8459585911008, 935)
+(8.492038937458506, 110)
+(90.60428848344759, 1112)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 2.0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(7.023062930927967, 127)
-(81.70100138231236, 1402)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 3%, skewed latency = 0ms
+(7.855923588868218, 124)
+(82.95677143210757, 1480)
+(6.389434096308505, 125)
+(77.51088898662776, 1330)
+(7.54167007135358, 125)
+(55.774649960206844, 997)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 2.5 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(5.13253161767541, 143)
-(41.37377456966532, 994)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 4%, skewed latency = 0ms
+(6.389402821907825, 154)
+(61.06597458806775, 1250)
+(6.598928353092074, 139)
+(77.37163956381481, 1671)
+(6.185540672544995, 137)
+(37.217633451315066, 763)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 3.0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(4.294558262997893, 173)
-(37.28890679837465, 1280)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 5%, skewed latency = 0ms
+(5.02772932183017, 143)
+(39.698116735808604, 937)
+(5.1369883242503285, 144)
+(42.879541773119584, 1081)
+(5.766180829841931, 143)
+(24.51346170042353, 570)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 4.0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(3.8755638062391515, 166)
-(24.71958767912076, 1003)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 6%, skewed latency = 0ms
+(4.50401786552667, 162)
+(29.433424139295433, 931)
+(4.713497180897168, 180)
+(31.109152867716883, 976)
+(4.61293912929411, 163)
+(29.87895113983652, 1005)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 5.0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(3.666058856070757, 169)
-(19.168294629854184, 878)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 7%, skewed latency = 0ms
+(3.770778911180349, 168)
+(25.243355667489944, 990)
+(4.085060678855181, 193)
+(9.54051607148017, 402)
+(3.774265565817347, 168)
+(10.798327550573859, 480)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 6.0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(2.9328919097188684, 189)
-(19.587044825593892, 1004)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 8%, skewed latency = 0ms
+(3.3518403068541622, 192)
+(14.87383296367964, 681)
+(3.2471092448424717, 181)
+(17.073518427930274, 817)
+(3.247048265619434, 174)
+(14.048507676082785, 675)
+===== Start latency skew sweep =====
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(2.8292307572389257, 201)
-(9.636529330787141, 611)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 9%, skewed latency = 0ms
+(192.42171475859, 66)
+(190.11093901945048, 194)
+(192.7336862925299, 152)
+(190.80692560931922, 87)
+(192.4905077330233, 99)
+(190.52974500400768, 71)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 1 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(2.304389750579152, 188)
-(12.254970252951056, 820)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 10%, skewed latency = 0ms
+(193.14864003498616, 108)
+(188.95997842319505, 22)
+(189.693686091036, 3)
+(188.71122166987277, 101)
+(191.96378175145787, 4)
+(189.59670595747548, 71)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 2 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(2.094892867531654, 177)
-(8.79845863823469, 646)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 15%, skewed latency = 0ms
+(174.8201719239382, 4)
+(188.2270454666915, 118)
+(172.41023411627816, 3)
+(187.6620942376236, 69)
+(191.7423479092252, 28)
+(189.54211146762395, 99)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 3 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(1.3616673059711035, 187)
-(4.504000768767733, 583)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 20%, skewed latency = 0ms
+(170.57064169160404, 3)
+(182.78013302507784, 132)
+(160.48020770251483, 9)
+(182.42310927176027, 268)
+(160.6155504343939, 4)
+(180.89289685336254, 266)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 4 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(0.7332092809905434, 151)
-(3.666118183147678, 656)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 25%, skewed latency = 0ms
+(167.58893501734553, 4)
+(178.28081473423998, 536)
+(157.117922451755, 31)
+(177.01959669430337, 375)
+(157.99393921518143, 5)
+(178.5905803073302, 104)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 5 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(0.20968227988205854, 54)
-(2.409146290725037, 550)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 30%, skewed latency = 0ms
+(160.57503003538918, 73)
+(176.43077438639, 87)
+(160.5745327859469, 83)
+(177.49471891873785, 14)
+(186.509161853089, 53)
+(176.44666821641482, 867)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 6 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(0.3142363785331424, 100)
-(3.3517937669465487, 689)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 0ms
+(156.635378315405, 8)
+(177.12402353592947, 37)
+(155.4417805602125, 91)
+(176.7052901174071, 13)
+(152.71868164514458, 57)
+(176.65656129666283, 14)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 8 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(192.5208083768931, 90)
-(190.42910960053575, 84)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 1ms
+(154.18875113218812, 173)
+(176.18156370923455, 33)
+(165.9156808454571, 120)
+(177.4376917497547, 53)
+(154.1712190724071, 116)
+(177.12421816359773, 27)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 10 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(190.32249993157325, 14)
-(187.9134482190608, 30)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 2ms
+(134.3880218197743, 21)
+(175.86806571900553, 41)
+(149.68188963289546, 185)
+(162.98442342954664, 20)
+(145.41425400221047, 12)
+(158.41569104868418, 16)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 15 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(186.86627310056474, 4)
-(188.85553526844288, 110)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 3ms
+(82.33111547583442, 104)
+(151.5652113022302, 50)
+(83.3118298956116, 74)
+(153.07256683219217, 183)
+(81.38727082022237, 86)
+(116.47665478638744, 326)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 20 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(160.36425725850685, 10)
-(178.79978495109157, 116)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 4ms
+(5.9714521642566085, 577)
+(3.03758070010179, 154)
+(5.346989021536984, 460)
+(4.504531278675462, 253)
+(5.762733576512873, 504)
+(3.353098713379605, 164)
+===== Start fairness skew sweep (single path) =====
+>>>>> ARGS: link count = 1, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(167.278615808946, 18)
-(176.70555489182186, 108)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 5ms
+('C1', 'bbr', 93.44167510713206, 2)
+('C1', 'bbr', 93.08474448900799, 3)
+('C1', 'bbr', 92.77070529767298, 2)
+>>>>> ARGS: link count = 1, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 1, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(187.49253706295715, 14)
-(175.2400640357763, 375)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 6ms
+('C1', 'bbr', 51.135445225209075, 319)
+('C2', 'cubic', 44.49895520114498, 115)
+('C1', 'bbr', 57.38736524892836, 351)
+('C2', 'cubic', 38.037191196618025, 109)
+('C1', 'bbr', 50.471504574103214, 238)
+('C2', 'cubic', 44.9181664635559, 69)
+>>>>> ARGS: link count = 1, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 2, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(156.80240220441812, 6)
-(177.6470748768202, 14)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 7ms
+('C1', 'bbr', 43.34643334720828, 419)
+('C2', 'cubic', 25.148476580854528, 113)
+('C3', 'cubic', 27.02356254801142, 104)
+('C1', 'bbr', 41.7049209684924, 471)
+('C2', 'cubic', 26.545764490986233, 106)
+('C3', 'cubic', 27.37001955222824, 104)
+('C1', 'bbr', 39.90957914519376, 360)
+('C2', 'cubic', 28.11749417158299, 101)
+('C3', 'cubic', 27.593609828257915, 118)
+>>>>> ARGS: link count = 1, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 3, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(152.61299113425815, 150)
-(176.91218285723417, 33)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 8ms
+('C1', 'bbr', 31.261002469400477, 382)
+('C2', 'cubic', 21.30635034350142, 111)
+('C3', 'cubic', 21.411184171627617, 104)
+('C4', 'cubic', 21.69052420251396, 96)
+('C1', 'bbr', 34.22808090884293, 343)
+('C2', 'cubic', 21.1318693229971, 110)
+('C3', 'cubic', 19.33021680810795, 120)
+('C4', 'cubic', 20.924596505006154, 111)
+('C1', 'bbr', 33.25219802186526, 482)
+('C2', 'cubic', 20.833155687671393, 102)
+('C3', 'cubic', 20.95719226622066, 129)
+('C4', 'cubic', 20.537891755429474, 105)
+>>>>> ARGS: link count = 1, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 4, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(154.60607430670177, 123)
-(176.706543389981, 35)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 9ms
+('C1', 'bbr', 31.007048231854753, 363)
+('C2', 'cubic', 16.556125637945023, 119)
+('C3', 'cubic', 15.752843318147807, 116)
+('C4', 'cubic', 16.416488055217787, 112)
+('C5', 'cubic', 15.962326716707352, 104)
+('C1', 'bbr', 27.418847081027838, 402)
+('C2', 'cubic', 16.381487327836574, 119)
+('C3', 'cubic', 17.848531972806473, 123)
+('C4', 'cubic', 15.752820229766213, 126)
+('C5', 'cubic', 18.33744366756868, 108)
+('C1', 'bbr', 27.977710018519907, 434)
+('C2', 'cubic', 16.102121191367708, 115)
+('C3', 'cubic', 15.787743092842543, 109)
+('C4', 'cubic', 15.787756766209757, 120)
+('C5', 'cubic', 20.129565956697988, 96)
+>>>>> ARGS: link count = 1, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 5, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(183.82817126294316, 623)
-(176.60006852633418, 19)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 10ms
+('C1', 'bbr', 29.71521454795728, 494)
+('C2', 'cubic', 14.21590336832993, 132)
+('C3', 'cubic', 12.714015998977768, 131)
+('C4', 'cubic', 13.552239116204014, 133)
+('C5', 'cubic', 12.329785622736615, 143)
+('C6', 'cubic', 13.063284747001749, 128)
+('C1', 'bbr', 26.196314937377732, 409)
+('C2', 'cubic', 13.202978351886687, 140)
+('C3', 'cubic', 13.901567157740738, 126)
+('C4', 'cubic', 13.796794803401575, 110)
+('C5', 'cubic', 14.565138975939831, 127)
+('C6', 'cubic', 13.866652454184731, 148)
+('C1', 'bbr', 25.358108036535683, 351)
+('C2', 'cubic', 16.62593286459457, 120)
+('C3', 'cubic', 15.228809852836749, 129)
+('C4', 'cubic', 13.02828934546144, 132)
+('C5', 'cubic', 12.95855860897465, 138)
+('C6', 'cubic', 12.399659699658967, 130)
+===== Start fairness skew sweep (spray) =====
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 0, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(146.32863222458957, 238)
-(172.6187756891128, 596)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 15ms
+('C1', 'bbr', 186.58800454313965, 76)
+('C1', 'bbr', 186.58782429897153, 154)
+('C1', 'bbr', 186.79753816164236, 67)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 1, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(86.2010785697369, 70)
-(149.88886598037004, 100)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 20ms
+('C1', 'bbr', 134.26461359426474, 467)
+('C2', 'cubic', 55.08234022049533, 155)
+('C1', 'bbr', 130.91179633994457, 388)
+('C2', 'cubic', 59.09966017015543, 78)
+('C1', 'bbr', 136.49982398874806, 578)
+('C2', 'cubic', 53.580164025996844, 138)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 2, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(6.180774256418177, 610)
-(3.35305548918615, 142)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 25ms
+('C1', 'bbr', 101.53701478200928, 491)
+('C2', 'cubic', 44.4986305841644, 98)
+('C3', 'cubic', 44.77849536064247, 94)
+('C1', 'bbr', 97.80023057569639, 431)
+('C2', 'cubic', 45.54688411406541, 109)
+('C3', 'cubic', 47.642501247059315, 111)
+('C1', 'bbr', 107.09063534630441, 494)
+('C2', 'cubic', 40.36186952725129, 85)
+('C3', 'cubic', 43.83539478200852, 113)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 3, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(1.1524032362664542, 436)
-(2.304375478794779, 329)
->>>>> ARGS: link count = 2, single link bandwidth = 100 Mbps, loss = 0%, skewed latency = 30ms
+('C1', 'bbr', 79.9069888008295, 308)
+('C2', 'cubic', 36.98967476132752, 98)
+('C3', 'cubic', 33.84559831239376, 88)
+('C4', 'cubic', 40.44738107380588, 93)
+('C1', 'bbr', 80.68694472396456, 378)
+('C2', 'cubic', 38.73561639710611, 97)
+('C3', 'cubic', 37.548254030930615, 91)
+('C4', 'cubic', 34.57936723926409, 96)
+('C1', 'bbr', 76.77254933977846, 375)
+('C2', 'cubic', 42.298494049999356, 104)
+('C3', 'cubic', 35.627070200564, 79)
+('C4', 'cubic', 36.77974011061332, 88)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 4, rep = 3
 ##### Spray iperf: CUBIC, BBR #####
-(1.2571828675839383, 296)
-(1.992019899657827, 425)
+('C1', 'bbr', 61.233411370077, 259)
+('C2', 'cubic', 33.49647855139471, 67)
+('C3', 'cubic', 33.70606668724143, 69)
+('C4', 'cubic', 30.178268400915933, 72)
+('C5', 'cubic', 32.55332965231425, 94)
+('C1', 'bbr', 68.42493416446369, 362)
+('C2', 'cubic', 29.13039633366593, 104)
+('C3', 'cubic', 31.156253310225654, 107)
+('C4', 'cubic', 31.435771645040465, 103)
+('C5', 'cubic', 31.2960383396117, 94)
+('C1', 'bbr', 70.72979587931962, 506)
+('C2', 'cubic', 29.305028259738098, 84)
+('C3', 'cubic', 33.356433241937, 124)
+('C4', 'cubic', 30.422864533615574, 96)
+('C5', 'cubic', 27.52380393080285, 103)
+>>>>> ARGS: link count = 2, single link bandwidth = 100 (Mbps), loss = 0 (%), skewed latency = 0 (ms), pair count = 5, rep = 3
+##### Spray iperf: CUBIC, BBR #####
+('C1', 'bbr', 61.501853006847085, 447)
+('C2', 'cubic', 26.167570006640656, 84)
+('C3', 'cubic', 24.554752814740244, 87)
+('C4', 'cubic', 27.31420452408658, 84)
+('C5', 'cubic', 26.161571265021276, 96)
+('C6', 'cubic', 25.934105446591722, 98)
+('C1', 'bbr', 63.04624736892264, 450)
+('C2', 'cubic', 25.742415261191574, 100)
+('C3', 'cubic', 25.025159674549773, 98)
+('C4', 'cubic', 25.91809107449047, 96)
+('C5', 'cubic', 26.228668605271217, 101)
+('C6', 'cubic', 25.53265709843451, 103)
+('C1', 'bbr', 61.49522096676197, 584)
+('C2', 'cubic', 25.709177975289798, 89)
+('C3', 'cubic', 25.106707934060662, 101)
+('C4', 'cubic', 27.698222231593522, 97)
+('C5', 'cubic', 25.04383975278773, 90)
+('C6', 'cubic', 26.3707400676554, 91)
