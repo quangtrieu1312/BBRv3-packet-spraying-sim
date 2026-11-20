@@ -12,3 +12,6 @@ A programmable Linux tool for creating network namespaces and veth pairs
 # How to spray
 Linux has routing policies (`ip rule`) to support multiple routing tables (`ip route`), and a policy can match against marked packets (`fwmark`) to decide which table to use.
 The last piece is netfilter PREROUTING hook (`iptables/nftables`) which can mark packets before the kernel make routing decisions.
+
+# Credit
+The code is manually typed by Trieu Truong and William Borda
